@@ -16,10 +16,10 @@ import (
 	"github.com/hashicorp/cli"
 	"github.com/hashicorp/go-version"
 
-	hci "github.com/hashicorp/hc-install"
-	"github.com/hashicorp/hc-install/product"
-	"github.com/hashicorp/hc-install/releases"
-	"github.com/hashicorp/hc-install/src"
+	hci "github.com/mo3789530/hc-install"
+	"github.com/mo3789530/hc-install/product"
+	"github.com/mo3789530/hc-install/releases"
+	"github.com/mo3789530/hc-install/src"
 )
 
 type InstallCommand struct {

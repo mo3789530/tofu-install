@@ -13,7 +13,7 @@ import (
 	"strings"
 
 	"github.com/hashicorp/go-version"
-	"github.com/hashicorp/hc-install/internal/build"
+	"github.com/mo3789530/hc-install/internal/build"
 )
 
 var consulVersionOutputRe = regexp.MustCompile(`Consul ` + simpleVersionRe)
