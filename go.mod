@@ -1,4 +1,4 @@
-module github.com/mo3789530/hc-install
+module github.com/mo3789530/tofu-install
 
 go 1.23.0
 
