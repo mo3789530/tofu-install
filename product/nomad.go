@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	"github.com/hashicorp/go-version"
-	"github.com/mo3789530/hc-install/internal/build"
+	"github.com/mo3789530/tofu-install/internal/build"
 )
 
 var nomadVersionOutputRe = regexp.MustCompile(`Nomad ` + simpleVersionRe)

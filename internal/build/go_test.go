@@ -3,7 +3,7 @@
 
 package build
 
-// import "github.com/mo3789530/hc-install/product"
+// import "github.com/mo3789530/tofu-install/product"
 
 // var (
 // 	_ product.Checker = &GoIsInstalled{}

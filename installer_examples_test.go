@@ -8,12 +8,12 @@ import (
 	"log"
 
 	"github.com/hashicorp/go-version"
-	install "github.com/mo3789530/hc-install"
-	"github.com/mo3789530/hc-install/build"
-	"github.com/mo3789530/hc-install/fs"
-	"github.com/mo3789530/hc-install/product"
-	"github.com/mo3789530/hc-install/releases"
-	"github.com/mo3789530/hc-install/src"
+	install "github.com/mo3789530/tofu-install"
+	"github.com/mo3789530/tofu-install/build"
+	"github.com/mo3789530/tofu-install/fs"
+	"github.com/mo3789530/tofu-install/product"
+	"github.com/mo3789530/tofu-install/releases"
+	"github.com/mo3789530/tofu-install/src"
 )
 
 // Installation of a single exact version

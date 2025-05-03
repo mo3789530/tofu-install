@@ -12,11 +12,11 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-version"
-	"github.com/mo3789530/hc-install/internal/pubkey"
-	rjson "github.com/mo3789530/hc-install/internal/releasesjson"
-	isrc "github.com/mo3789530/hc-install/internal/src"
-	"github.com/mo3789530/hc-install/internal/validators"
-	"github.com/mo3789530/hc-install/product"
+	"github.com/mo3789530/tofu-install/internal/pubkey"
+	rjson "github.com/mo3789530/tofu-install/internal/releasesjson"
+	isrc "github.com/mo3789530/tofu-install/internal/src"
+	"github.com/mo3789530/tofu-install/internal/validators"
+	"github.com/mo3789530/tofu-install/product"
 )
 
 // ExactVersion installs the given Version of product

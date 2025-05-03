@@ -9,9 +9,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/hashicorp/go-version"
-	"github.com/mo3789530/hc-install/internal/testutil"
-	"github.com/mo3789530/hc-install/product"
-	"github.com/mo3789530/hc-install/src"
+	"github.com/mo3789530/tofu-install/internal/testutil"
+	"github.com/mo3789530/tofu-install/product"
+	"github.com/mo3789530/tofu-install/src"
 )
 
 func TestVersions_List(t *testing.T) {

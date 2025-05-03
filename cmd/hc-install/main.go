@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/mo3789530/hc-install/version"
+	"github.com/mo3789530/tofu-install/version"
 
 	"github.com/hashicorp/cli"
 	"github.com/hashicorp/logutils"

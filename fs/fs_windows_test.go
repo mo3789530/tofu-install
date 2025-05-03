@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/mo3789530/hc-install/errors"
-	"github.com/mo3789530/hc-install/internal/testutil"
-	"github.com/mo3789530/hc-install/product"
+	"github.com/mo3789530/tofu-install/errors"
+	"github.com/mo3789530/tofu-install/internal/testutil"
+	"github.com/mo3789530/tofu-install/product"
 )
 
 func TestAnyVersion_executable(t *testing.T) {

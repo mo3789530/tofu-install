@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/mo3789530/hc-install/product"
+	"github.com/mo3789530/tofu-install/product"
 )
 
 func TestAnyVersionValidate(t *testing.T) {
