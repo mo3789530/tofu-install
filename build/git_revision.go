@@ -14,9 +14,9 @@ import (
 
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/plumbing"
-	isrc "github.com/mo3789530/hc-install/internal/src"
-	"github.com/mo3789530/hc-install/internal/validators"
-	"github.com/mo3789530/hc-install/product"
+	isrc "github.com/mo3789530/tofu-install/internal/src"
+	"github.com/mo3789530/tofu-install/internal/validators"
+	"github.com/mo3789530/tofu-install/product"
 )
 
 var (

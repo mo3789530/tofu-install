@@ -10,10 +10,10 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-version"
-	rjson "github.com/mo3789530/hc-install/internal/releasesjson"
-	"github.com/mo3789530/hc-install/internal/validators"
-	"github.com/mo3789530/hc-install/product"
-	"github.com/mo3789530/hc-install/src"
+	rjson "github.com/mo3789530/tofu-install/internal/releasesjson"
+	"github.com/mo3789530/tofu-install/internal/validators"
+	"github.com/mo3789530/tofu-install/product"
+	"github.com/mo3789530/tofu-install/src"
 )
 
 // Versions allows listing all versions of a product

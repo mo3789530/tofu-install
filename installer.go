@@ -10,8 +10,8 @@ import (
 	"log"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/mo3789530/hc-install/errors"
-	"github.com/mo3789530/hc-install/src"
+	"github.com/mo3789530/tofu-install/errors"
+	"github.com/mo3789530/tofu-install/src"
 )
 
 type Installer struct {

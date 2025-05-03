@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-version"
-	"github.com/mo3789530/hc-install/product"
+	"github.com/mo3789530/tofu-install/product"
 )
 
 func TestExactVersionValidate(t *testing.T) {

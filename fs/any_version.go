@@ -9,10 +9,10 @@ import (
 	"log"
 	"path/filepath"
 
-	"github.com/mo3789530/hc-install/errors"
-	"github.com/mo3789530/hc-install/internal/src"
-	"github.com/mo3789530/hc-install/internal/validators"
-	"github.com/mo3789530/hc-install/product"
+	"github.com/mo3789530/tofu-install/errors"
+	"github.com/mo3789530/tofu-install/internal/src"
+	"github.com/mo3789530/tofu-install/internal/validators"
+	"github.com/mo3789530/tofu-install/product"
 )
 
 // AnyVersion finds an executable binary of any version

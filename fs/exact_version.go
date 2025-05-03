@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-version"
-	"github.com/mo3789530/hc-install/errors"
-	"github.com/mo3789530/hc-install/internal/src"
-	"github.com/mo3789530/hc-install/internal/validators"
-	"github.com/mo3789530/hc-install/product"
+	"github.com/mo3789530/tofu-install/errors"
+	"github.com/mo3789530/tofu-install/internal/src"
+	"github.com/mo3789530/tofu-install/internal/validators"
+	"github.com/mo3789530/tofu-install/product"
 )
 
 // ExactVersion finds the first executable binary of the product name
