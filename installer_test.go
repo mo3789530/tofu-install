@@ -11,12 +11,12 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-version"
-	install "github.com/hashicorp/hc-install"
-	"github.com/hashicorp/hc-install/fs"
-	"github.com/hashicorp/hc-install/internal/testutil"
-	"github.com/hashicorp/hc-install/product"
-	"github.com/hashicorp/hc-install/releases"
-	"github.com/hashicorp/hc-install/src"
+	install "github.com/mo3789530/hc-install"
+	"github.com/mo3789530/hc-install/fs"
+	"github.com/mo3789530/hc-install/internal/testutil"
+	"github.com/mo3789530/hc-install/product"
+	"github.com/mo3789530/hc-install/releases"
+	"github.com/mo3789530/hc-install/src"
 )
 
 func TestInstaller_Ensure_installable(t *testing.T) {

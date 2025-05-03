@@ -12,9 +12,9 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-version"
-	"github.com/hashicorp/hc-install/internal/testutil"
-	"github.com/hashicorp/hc-install/product"
-	"github.com/hashicorp/hc-install/src"
+	"github.com/mo3789530/hc-install/internal/testutil"
+	"github.com/mo3789530/hc-install/product"
+	"github.com/mo3789530/hc-install/src"
 )
 
 var (

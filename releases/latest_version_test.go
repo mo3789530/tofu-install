@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-version"
-	rjson "github.com/hashicorp/hc-install/internal/releasesjson"
-	"github.com/hashicorp/hc-install/product"
+	rjson "github.com/mo3789530/hc-install/internal/releasesjson"
+	"github.com/mo3789530/hc-install/product"
 )
 
 func TestLatestVersionValidate(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"net/http"
 
 	"github.com/hashicorp/go-retryablehttp"
-	"github.com/hashicorp/hc-install/version"
+	"github.com/mo3789530/hc-install/version"
 )
 
 // NewHTTPClient provides a pre-configured http.Client

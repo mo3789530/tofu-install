@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hashicorp/hc-install/errors"
-	"github.com/hashicorp/hc-install/internal/testutil"
-	"github.com/hashicorp/hc-install/product"
+	"github.com/mo3789530/hc-install/errors"
+	"github.com/mo3789530/hc-install/internal/testutil"
+	"github.com/mo3789530/hc-install/product"
 )
 
 func TestAnyVersion_executable(t *testing.T) {

@@ -8,16 +8,16 @@ import (
 	"log"
 
 	"github.com/hashicorp/go-version"
-	install "github.com/hashicorp/hc-install"
-	"github.com/hashicorp/hc-install/build"
-	"github.com/hashicorp/hc-install/fs"
-	"github.com/hashicorp/hc-install/product"
-	"github.com/hashicorp/hc-install/releases"
-	"github.com/hashicorp/hc-install/src"
+	install "github.com/mo3789530/hc-install"
+	"github.com/mo3789530/hc-install/build"
+	"github.com/mo3789530/hc-install/fs"
+	"github.com/mo3789530/hc-install/product"
+	"github.com/mo3789530/hc-install/releases"
+	"github.com/mo3789530/hc-install/src"
 )
 
 // Installation of a single exact version
-func ExampleInstaller() {
+func ExampleInstaller_terraform() {
 	ctx := context.Background()
 	i := install.NewInstaller()
 	defer i.Remove(ctx)
@@ -33,6 +33,26 @@ func ExampleInstaller() {
 		log.Fatal(err)
 	}
 	log.Printf("Terraform %s installed to %s", v1_3, execPath)
+
+	// run any tests
+}
+
+func ExampleInstaller_tofu() {
+	ctx := context.Background()
+	i := install.NewInstaller()
+	defer i.Remove(ctx)
+	v1_9 := version.Must(version.NewVersion("1.9.1"))
+
+	execPath, err := i.Install(ctx, []src.Installable{
+		&releases.ExactVersion{
+			Product: product.Tofu,
+			Version: v1_9,
+		},
+	})
+	if err != nil {
+		log.Fatal(err)
+	}
+	log.Printf("Tofu %s installed to %s", v1_9, execPath)
 
 	// run any tests
 }

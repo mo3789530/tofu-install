@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-version"
-	"github.com/hashicorp/hc-install/internal/testutil"
+	"github.com/mo3789530/hc-install/internal/testutil"
 )
 
 func TestListProductVersions_includesEnterpriseBuilds(t *testing.T) {
